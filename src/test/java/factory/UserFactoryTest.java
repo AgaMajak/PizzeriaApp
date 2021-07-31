@@ -18,5 +18,4 @@ class UserFactoryTest {
         Assertions.assertThat(testedName).isEqualTo(name);
 
     }
-
 }

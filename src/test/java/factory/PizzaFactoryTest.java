@@ -25,6 +25,4 @@ class PizzaFactoryTest {
         Assertions.assertThat(testedPizza).isEqualTo(pizza);
 
     }
-
-
 }

@@ -11,11 +11,11 @@ public class PizzeriaControl {
     private Order order;
 
     public void startPizzeriaApp() {
-        OrderCreator orderCreator  = new OrderCreator();
+        OrderCreator orderCreator = new OrderCreator();
         order = orderCreator.getOrder();
     }
 
-    public void closePizzeriaApp(){
+    public void closePizzeriaApp() {
         AppPrinter.printResumeAndGoodbye(order);
         closeAppAndWriteDataToFile();
     }

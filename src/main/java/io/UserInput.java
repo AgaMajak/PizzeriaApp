@@ -17,10 +17,10 @@ public class UserInput {
         return AppReader.getStringAndLowerCase();
     }
 
-    public static String askUserWhatModificationsDoOnPizza(){
+    public static String askUserWhatModificationsDoOnPizza() {
         AppPrinter.printText("Do you want to alter the ingredient or add the indgredient? " +
                 "If you don't want to change your pizza please type \"done\". add/alter/done");
-       return AppReader.getStringAndLowerCase();
+        return AppReader.getStringAndLowerCase();
     }
 
 }

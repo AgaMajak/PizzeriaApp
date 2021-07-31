@@ -3,7 +3,9 @@ package factory;
 import model.Ingredient;
 import model.Pizza;
 import model.PizzaType;
-import java.util.*;
+
+import java.util.HashSet;
+import java.util.Set;
 
 public class PizzaFactory {
 

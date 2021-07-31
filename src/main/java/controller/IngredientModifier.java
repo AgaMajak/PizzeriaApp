@@ -68,6 +68,5 @@ public class IngredientModifier {
         AppPrinter.printAllFromSet(setToPrint);
         return new Ingredient(AppReader.getStringAndLowerCase());
     }
-
 }
 
