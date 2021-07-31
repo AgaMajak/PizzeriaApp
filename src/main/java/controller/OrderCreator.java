@@ -59,7 +59,7 @@ public class OrderCreator {
         }
     }
 
-    PizzaType getPizzaType() {
+    private PizzaType getPizzaType() {
         PizzaType pizzaType = null;
         boolean isPizzaTypeCorrect = false;
         while (!isPizzaTypeCorrect) {
